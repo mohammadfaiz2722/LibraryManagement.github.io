@@ -93,7 +93,6 @@ class Display {
         }
         error_success.innerHTML = `  <div id="success" class="alert alert-${type} alert-dismissible fade show" role="alert">
         <strong>${boldtext}: </strong>${message}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>`
         setTimeout(() => {
             error_success.innerHTML = ''
